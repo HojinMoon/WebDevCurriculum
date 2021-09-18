@@ -21,9 +21,12 @@
 * [그리드 레이아웃과 다른 레이아웃 방법과의 관계](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/%EA%B7%B8%EB%A6%AC%EB%93%9C_%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%EA%B3%BC_%EB%8B%A4%EB%A5%B8_%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83_%EB%B0%A9%EB%B2%95%EA%B3%BC%EC%9D%98_%EA%B4%80%EA%B3%84)
 
 ## Checklist
-* CSS를 HTML에 적용하는 세 가지 방법은 무엇일까요?
+* CSS를 HTML에 적용하는 세 가지 방법은 무엇일까요? <인라인 방식, 내부 스타일시트, 외부 스타일 시트>
+  1. 인라인 방식 - 각 태그의 스타일 속성에 넣는 방식
+  2. 내부 스타일시트 방식 - 스타일 태그 내부에 기입하는 방식
+  3. link 태그 사용해 CSS 연결 방식
   * 세 가지 방법 각각의 장단점은 무엇일까요?
-* CSS 규칙의 우선순위는 어떻게 결정될까요?
+* CSS 규칙의 우선순위는 어떻게 결정될까요? <!importand > 인라인 > 내부 > 외부 순서>
 * CSS의 박스모델은 무엇일까요? 박스가 화면에서 차지하는 크기는 어떻게 결정될까요?
 * `float` 속성은 왜 좋지 않을까요?
 * Flexbox(Flexible box)와 CSS Grid의 차이와 장단점은 무엇일까요?
